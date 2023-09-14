@@ -1,0 +1,8 @@
+print("¿Cuál es el largo del rectangulo en centímetros?")
+largo=input()
+largo=int(largo)
+print("¿Cuál es el ancho del rectangulo? en centímetros")
+ancho=input()
+ancho=int(ancho)
+print("El área del rectangulo es",largo*ancho,"centímetros cuadrados")
+print("El perimetro del rectangulo es",(largo*2)+(ancho*2),"centímetros")
